@@ -687,6 +687,15 @@ p {
   background-size: cover;
 }
 
+.hero-img {
+  max-width: 14000px;
+}
+.hero-img img{
+  width:130%;
+  transform: translateX(-40px);
+}
+
+
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
   .hero-section {
     padding: 180px 0 140px;
@@ -711,6 +720,7 @@ p {
   }
 }
 
+/* Títulos y textos */
 .hero-section .hero-content span {
   font-family: "Archivo Black", sans-serif;
   font-size: 30px;
@@ -757,6 +767,7 @@ p {
   margin-bottom: 40px;
 }
 
+/* Imagen — resoluciones grandes */
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
   .hero-section .hero-img img {
     width: 100%;
@@ -775,12 +786,22 @@ p {
   }
 }
 
+/* 📱 Imagen y botón modificados para celular */
 @media (max-width: 767px) {
+  /* Imagen más grande y movida */
   .hero-section .hero-img img {
-    width: 100%;
+    width: 150%;
+    transform: translateX(-130px); /* mover a la izquierda */
+  }
+
+  /* Botón más chico */
+  .hero-section .hero-content .btn {
+    padding: 10px 18px;
+    font-size: 14px;
   }
 }
 
+/* Shapes */
 .hero-section .hero-shape .shape {
   position: absolute;
   z-index: -1;
@@ -816,6 +837,7 @@ p {
     display: none;
   }
 }
+
 
 .client-logo-section .single-logo {
   opacity: .43;
