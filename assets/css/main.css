@@ -65,6 +65,7 @@ a,
 a:focus,
 a:hover {
   text-decoration: none;
+  color: #000000;
 }
 
 i,
@@ -1041,7 +1042,7 @@ p {
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  color: #6B6F92;
+  color: #000000;
   background: #fff;
 }
 
@@ -1056,14 +1057,15 @@ p {
 .footer .widget-wrapper .footer-widget ul li {
   font-size: 18px;
   line-height: 36px;
+  color: #000000;
 }
 
 .footer .widget-wrapper .footer-widget ul li a {
-  color: #6B6F92;
+  color: #00000074;
 }
 
 .footer .widget-wrapper .footer-widget ul li a:hover {
-  color: #4E6EF1;
+  color: #000000;
   padding-left: 7px;
 }
 
@@ -1073,6 +1075,11 @@ p {
   border-top: 2px solid #fff;
 }
 
+
+.footer-widget li a,
+.footer-widget li i {
+  color:#000 !important;
+}
 /* ======================
     DEFAULT CSS
 ========================= */
