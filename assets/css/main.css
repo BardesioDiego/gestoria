@@ -886,19 +886,19 @@ p {
 }
 
 .service-section .single-service:hover .icon.color-1 {
-  background: #FB32FB;
+  background: #000000;
 }
 
 .service-section .single-service:hover .icon.color-2 {
-  background: #4E6EF1;
+  background: #000000;
 }
 
 .service-section .single-service:hover .icon.color-3 {
-  background: #FF3B3B;
+  background: #000000;
 }
 
 .service-section .single-service:hover .icon.color-4 {
-  background: #5A37FF;
+  background: #000000;
 }
 
 .service-section .single-service .icon {
@@ -916,25 +916,36 @@ p {
 }
 
 .service-section .single-service .icon.color-1 {
-  background: #FFEFFF;
+  background: #000000;
+  color: #ffffff;
+}
+
+.color-1 i {
+  font-size: 32px;  
+  color: #fff;      
+   -webkit-text-stroke: 6px #fff; 
 }
 
 .service-section .single-service .icon.color-2 {
-  background: #E4E9FF;
+  background: #000000;
+  color: #ffffff;
 }
 
 .service-section .single-service .icon.color-3 {
-  background: #FFEAEA;
+  background: #000000;
+  color: #ffffff;
 }
 
 .service-section .single-service .icon.color-4 {
-  background: #ECE8FF;
+  background: #000000;
+  color: #ffffff;
 }
 
 .service-section .single-service .content h3 {
   font-size: 24px;
   margin-bottom: 15px;
 }
+
 
 /* ============= counter-up css =========== */
 @media only screen and (min-width: 1400px) {
@@ -1783,4 +1794,8 @@ p {
 
 .pb-225 {
   padding-bottom: 225px;
+}
+
+footer svg path {
+  fill: #ead6b6; /* tu nuevo color */
 }
