@@ -30,6 +30,14 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  color: #000000;
+}
+
+.icon-text {
+  font-size: 2.5rem;
+  font-weight: 600; /* más grueso, sin llegar a bold */
+  color: #000000;
+  line-height: 1;
 }
 
 a:focus,
@@ -89,6 +97,7 @@ h6 {
 .section-title p {
   font-size: 18px;
   line-height: 28px;
+  color: #000000;
 }
 
 h1 a,
@@ -672,7 +681,6 @@ p {
   position: relative;
   z-index: 1;
   padding: 160px 0 120px;
-  background-image: url("../img/hero/hero-bg.jpg");
   background-repeat: no-repeat;
   background-position: left bottom;
   background-size: cover;
@@ -839,7 +847,7 @@ p {
   background: none;
   font-size: 20px;
   font-weight: 500;
-  color: #313450;
+  color: #000000;
   position: relative;
 }
 
@@ -860,12 +868,10 @@ p {
 .about-section .accordion .single-faq .faq-content {
   padding: 0 30px;
   padding-bottom: 20px;
+  color: #000000;
 }
 
 /* ============== service css ==============*/
-.service-section {
-  background-image: url("../img/service/service-bg.jpg");
-}
 
 .service-section .single-service {
   text-align: center;
@@ -980,11 +986,13 @@ p {
 .counter-up-section .counter-up-content .counter-up-wrapper .single-counter .content span {
   font-size: 25px;
   font-weight: 500;
+  color: #000000;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .counter-up-section .counter-up-content .counter-up-wrapper .single-counter .content span {
     font-size: 18px;
+    color: #000000;
   }
 }
 
