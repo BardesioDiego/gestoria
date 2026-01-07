@@ -682,18 +682,7 @@ p {
 }
 .hero-img img{
   width:130%;
-  transform: translateX(-40px);
-}
-
-
-.float_hero {
-  animation: floatSoft 5s ease-in-out infinite;
-}
-
-@keyframes floatSoft {
-  0%   { transform: translateY(0) scale(1); }
-  50%  { transform: translateY(-8px) scale(1.01); }
-  100% { transform: translateY(0) scale(1); }
+  transform: translateX(-50px);
 }
 
 
@@ -871,7 +860,7 @@ p {
   padding: 20px 30px 15px;
   border: none;
   background: none;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 500;
   color: #000000;
   position: relative;
