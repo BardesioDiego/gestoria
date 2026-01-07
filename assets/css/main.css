@@ -221,7 +221,7 @@ p {
 .scroll-top {
   width: 45px;
   height: 45px;
-  background: #4E6EF1;
+  background: #ead6b6;
   display: none;
   justify-content: center;
   align-items: center;
@@ -238,7 +238,7 @@ p {
 
 .scroll-top:hover {
   color: #fff;
-  background: rgba(78, 110, 241, 0.8);
+  background: #b8a88e;
 }
 
 @keyframes animation1 {
@@ -991,19 +991,11 @@ p {
 }
 
 .counter-up-section .counter-up-content .counter-up-wrapper .single-counter .icon.color-1 {
-  background: #FFEFFF;
-}
-
-.counter-up-section .counter-up-content .counter-up-wrapper .single-counter .icon.color-2 {
-  background: #E1F2FB;
+  background: #ead6b6;
 }
 
 .counter-up-section .counter-up-content .counter-up-wrapper .single-counter .icon.color-3 {
-  background: #FFEAEA;
-}
-
-.counter-up-section .counter-up-content .counter-up-wrapper .single-counter .icon.color-4 {
-  background: #ECE8FF;
+  background: #ead6b6;
 }
 
 .counter-up-section .counter-up-content .counter-up-wrapper .single-counter .content h1 {
@@ -1035,11 +1027,13 @@ p {
 }
 
 /* =========== footer css =========== */
-.footer {
-  background-image: url("../img/footer/footer-bg.svg");
-  background-size: cover;
-  background-position: top center;
-  padding-top: 150px;
+footer {
+  position: relative;
+  background: #ead6b6;
+  padding-top: 80px; /* Ajustá según cuánto quieras mostrar */
+  padding-bottom: 80px;
+  overflow: hidden;
+  z-index: 1;
 }
 
 .footer .widget-wrapper .footer-widget {
@@ -1097,6 +1091,10 @@ p {
   border-top: 2px solid #fff;
 }
 
+.logo-grande {
+    width: 50px; /* Ajusta el ancho a tu gusto */
+    height: auto;  /* Mantiene la proporción original */
+}
 
 .footer-widget li a,
 .footer-widget li i {
