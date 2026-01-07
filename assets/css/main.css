@@ -172,7 +172,7 @@ p {
   white-space: nowrap;
   vertical-align: middle;
   user-select: none;
-  padding: 20px 40px;
+  padding: 8px 15px;
   font-size: 18px;
   border-radius: 50px;
   color: #fff;
@@ -1825,4 +1825,41 @@ footer {
 
 footer svg path {
   fill: #ead6b6; /* tu nuevo color */
+}
+
+/** wpp link **/
+.float{
+  position:fixed;
+  width: 40px;
+  height: 40px;
+  background-color: #ead6b6;
+  bottom: 5px;
+  left: 2px;
+  color: #fff;
+  border-radius: 50%;
+  text-align: center;
+  box-shadow: 2px 2px 3px #999;
+  z-index: 999;
+}
+.boton-wpp{
+  font-size: 25px;
+}
+.float:hover{
+  background-color: #27e76e;
+}
+
+.label-top {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #a8e6a1; /* Verde clarito */
+  color: #065f08; /* Verde oscuro para contraste */
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 8px 0;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+  letter-spacing: 1px;
 }
